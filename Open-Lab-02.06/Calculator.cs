@@ -6,7 +6,15 @@ namespace Open_Lab_02._06
     {
         public bool Divisible(int number)
         {
-            throw new NotImplementedException();
+            int sto = number % 100;
+            if (sto == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
